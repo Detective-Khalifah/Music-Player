@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
         releaseMediaPlayer();
 
-        Button playButton = (Button) findViewById(R.id.play_button);
+        Button playButton = findViewById(R.id.play_button);
         playButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button pauseButton = (Button) findViewById(R.id.pause_button);
+        Button pauseButton = findViewById(R.id.pause_button);
         pauseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button stopButton = (Button) findViewById(R.id.stop_button);
+        Button stopButton = findViewById(R.id.stop_button);
         stopButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick (View view) {
@@ -109,7 +109,6 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 }
-
 
 //    @Override
 //    protected void onResume () {
